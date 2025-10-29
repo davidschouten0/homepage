@@ -14,6 +14,14 @@ body {
     gap: 2rem;
 }
 
+.hero,
+.carousel,
+.quote,
+.calltoaction,
+.footer{
+    padding: 1rem 10rem 5rem 10rem;
+}
+
 .hero .header {
     display: flex;
     justify-content: space-between;
@@ -37,6 +45,11 @@ body {
 h1 {
     padding: 0;
     margin: 0;
+}
+
+.banner {
+    display: flex;
+    gap: 32px;
 }
 
 .notsobigtext {
@@ -69,4 +82,30 @@ button {
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pictures {
+    display: flex;
+    gap: 48px;
+}
+
+.picturetext {
+    display: flex;
+    flex-direction: column;
+    color: rgb(139, 146, 158);
+    gap: 8px;
+    max-width: 200px;
+    overflow-wrap: break-word;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
